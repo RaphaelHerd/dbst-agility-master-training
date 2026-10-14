@@ -1,0 +1,18 @@
+Key,Team,Item,Feature,Sprint,Description
+SIG-P1,Signal,Feed v2 in Switch's test environment,F1,3,Provide delay feed v2 in Team Switch's test environment.
+SIG-P2,Signal,Platform-change events at all major stations,F9,2,Extend the platform-change events from the 5 pilot stations to all major stations.
+SIG-P3,Signal,Outage alerting for the delay feed,F2,1,Alert the on-call team when the delay feed stops. Builds on the monitoring rules for the delay feed.
+SIG-P4,Signal,Peak-hour load test and tuning,F10,2,Load test with peak-hour data and tuning. Needs the peak-hour test environment and test data from the provider.
+SWI-P1,Switch,Switch to delay feed v2,F1,1,Move the transfer logic to delay feed v2. Needs feed v2 in our test environment.
+SWI-P2,Switch,Walking times for the 50 largest stations,F5,2,Uses the station master data that Team Signal imported last PI.
+SWI-P3,Switch,Connection-at-risk warnings,,3,Flag connections at risk early enough for passengers to react. Needs Rail Ops' criteria.
+SWI-P4,Switch,Alternative routes at night,F4,4,
+CON-P1,Concourse,Push notifications for all users,F3,2,Platform-change notifications at all major stations. Texts within the templates Rail Ops approves.
+CON-P2,Concourse,Screen-reader support across the app,F6,3,Work spread over Sprints 1 to 3.
+CON-P3,Concourse,Fix duplicate push notifications,F3,1,"Root cause unknown, possibly in the event feed."
+CON-P4,Concourse,App release 3.3,,4,Release to the app stores through the release pipeline.
+DEP-P1,Depot,Logging migration for Concourse and Switch,F7,2,
+DEP-P2,Depot,Monitoring rules for the delay feed,F2,3,Needs the alert definitions from Team Signal.
+DEP-P3,Depot,Peak-hour test environment,F10,3,Environment for load tests with peak-hour data.
+DEP-P4,Depot,Self-service request portal,F8,2,
+DEP-P5,Depot,Release pipeline update,,3,New signing step for app store releases.

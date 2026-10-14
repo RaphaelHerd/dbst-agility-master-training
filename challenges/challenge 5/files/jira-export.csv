@@ -1,0 +1,8 @@
+Key,Summary,Issue Type,Status,Story Points,Sprint
+SIG-141,Delay feed v2: new stream processor,Story,Done,8,Sprint 14
+SIG-142,Platform-change events for 5 pilot stations,Story,Done,5,Sprint 14
+SIG-144,Data mapping for regional trains,Story,Done,3,Sprint 14
+SIG-148,Documentation of the feed format,Task,Done,2,Sprint 14
+SIG-150,Fix flaky integration tests,Bug,Done,,Sprint 14
+SIG-145,Load test with peak-hour data,Story,Blocked,5,Sprint 14
+SIG-147,Alerting for feed outages,Story,Blocked,3,Sprint 14

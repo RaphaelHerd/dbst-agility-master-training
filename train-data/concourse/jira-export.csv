@@ -1,0 +1,6 @@
+Key,Summary,Issue Type,Status,Story Points,Sprint
+CON-301,Push notification service,Story,Done,8,Sprint 14
+CON-309,Release candidate 3.2,Task,Done,3,Sprint 14
+CON-311,Crash fix on older Android devices,Bug,Done,,Sprint 14
+CON-307,Screen-reader labels,Story,Done,5,Sprint 14
+CON-305,Final notification texts,Story,Blocked,3,Sprint 14

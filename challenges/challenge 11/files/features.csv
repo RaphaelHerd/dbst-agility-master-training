@@ -1,0 +1,11 @@
+ID,Feature,Teams,Job Size,Note
+F1,Delay feed v2 at all major stations,Signal and Switch,13,Team Signal's forecast: 12 weeks with 85 % confidence for the remaining rollout
+F2,Outage alerting for real-time data,Signal and Depot,5,Needed before feed v2 goes live everywhere
+F3,Push notifications for all users,Concourse,8,Live for 200 beta users today
+F4,Alternative routes at night,Switch,8,
+F5,Walking times for the 50 largest stations,Switch,13,Walking times exist for 10 stations
+F6,Screen-reader support across the app,Concourse,8,Legal accessibility requirement with a fixed deadline in the next PI [DB placeholder: exact requirement and date]
+F7,Logging migration for all teams,Depot,8,Logs of Team Signal already migrated
+F8,Self-service request portal,Depot,5,Ad-hoc requests take around 40 % of Depot's capacity
+F9,Platform-change events at all major stations,Signal and Concourse,13,Live for 5 pilot stations today
+F10,Peak-hour readiness for the delay feed,Signal and Depot,8,Load test with peak-hour data still open

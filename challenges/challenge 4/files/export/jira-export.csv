@@ -1,0 +1,9 @@
+Key,Summary,Team,Status,Assignee,Assignee Email,Reporter,Comment
+SIG-145,Load test with peak-hour data,Signal,Blocked,Jens Weber,jens.weber@example.com,Alex Brandt,"Test data from the provider late again. Jens was off sick most of last week, so nobody chased the provider."
+SIG-147,Alerting for feed outages,Signal,Blocked,Sara Yilmaz,sara.yilmaz@example.com,Alex Brandt,"Waiting for Depot. @klange promised the monitoring rules two weeks ago."
+SWI-216,Switch to delay feed v2,Switch,Blocked,Daniel Fischer,daniel.fischer@example.com,Sam Lehmann,"Feed v2 still not in our test environment. Daniel asked Signal twice, no date yet."
+SWI-222,"Acceptance criteria for ""connection at risk""",Switch,Blocked,Felix Richter,felix.richter@example.com,Sam Lehmann,"Rail Ops has not confirmed the criteria; Sam is on it. FR prepared examples for Rail Ops. Honestly, Felix takes far too long with everything."
+CON-305,Final notification texts,Concourse,Blocked,Leon Vogel,leon.vogel@example.com,Jo Hartmann,"Waiting for Rail Ops approval. Leon goes on parental leave next month, handover needed."
+CON-314,Duplicate push notifications,Concourse,To Do,Hanna Berg,hanna.berg@example.com,Jo Hartmann,"Root cause unknown, possibly in the event feed. Hanna is off with back problems this week, so nobody is testing it."
+DEP-507,Monitoring rules for the delay feed,Depot,Blocked,Katrin Lange,katrin.lange@example.com,Charlie Busch,"No alert definitions from Signal. Tobi from Signal said he would send them."
+DEP-504,Migrate the logs of Team Concourse,Depot,To Do,Stefan Graf,stefan.graf@example.com,Charlie Busch,"Postponed because of release 3.2. Graf says it can't be done before PI Planning."

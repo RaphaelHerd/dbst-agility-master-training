@@ -1,0 +1,6 @@
+Key,Summary,Issue Type,Status,Story Points,Sprint
+DEP-501,Logging platform in the test environment,Story,Done,8,Sprint 14
+DEP-503,Migrate the logs of Team Signal,Story,Done,5,Sprint 14
+DEP-509,Update the on-call runbook,Task,Done,3,Sprint 14
+DEP-504,Migrate the logs of Team Concourse,Story,To Do,5,Sprint 14
+DEP-507,Monitoring rules for the delay feed,Story,Blocked,5,Sprint 14

@@ -1,0 +1,7 @@
+Key,Summary,Issue Type,Status,Story Points,Sprint
+SWI-210,Alternative routes for broken connections,Story,Done,8,Sprint 14
+SWI-214,Walking times for 10 stations,Story,Done,5,Sprint 14
+SWI-220,Bug fixes from the last release,Bug,Done,,Sprint 14
+SWI-219,Performance tuning,Story,Done,5,Sprint 14
+SWI-216,Switch to delay feed v2,Story,Blocked,8,Sprint 14
+SWI-222,"Acceptance criteria for ""connection at risk""",Story,Blocked,3,Sprint 14

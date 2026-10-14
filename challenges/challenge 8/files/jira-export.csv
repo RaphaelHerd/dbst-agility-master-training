@@ -1,0 +1,42 @@
+Key,Summary,Issue Type,Status,Created,Started,Resolved
+SIG-112,Stream processor prototype,Story,Done,2026-06-24,2026-07-01,2026-07-07
+SIG-113,Delay event schema v2,Story,Done,2026-06-23,2026-06-30,2026-07-09
+SIG-114,Feed health dashboard,Story,Done,2026-06-29,2026-07-06,2026-07-10
+SIG-115,Platform data import for 3 stations,Story,Done,2026-07-01,2026-07-08,2026-07-14
+SIG-116,Wrong timezone in delay timestamps,Bug,Done,2026-07-08,2026-07-09,2026-07-17
+SIG-117,Replay tool for delay events,Story,Done,2026-07-06,2026-07-13,2026-07-20
+SIG-118,Contract tests with Team Switch,Story,Done,2026-07-08,2026-07-15,2026-07-21
+SIG-119,Update feed documentation,Task,Done,2026-07-17,2026-07-20,2026-07-23
+SIG-120,Platform-change event model,Story,Done,2026-07-07,2026-07-14,2026-07-24
+SIG-121,Provider connection: retry logic,Story,Done,2026-07-14,2026-07-21,2026-07-30
+SIG-122,Delay feed v2: partitioning,Story,Done,2026-07-20,2026-07-27,2026-08-04
+SIG-123,Events lost during provider reconnect,Bug,Done,2026-07-28,2026-07-29,2026-08-05
+SIG-124,Clean up old topics,Task,Done,2026-07-31,2026-08-03,2026-08-07
+SIG-125,Delay feed v2: latency metrics,Story,Done,2026-08-10,2026-08-11,2025-08-14
+SIG-126,Station master data import,Story,Done,2026-08-03,2026-08-10,2026-08-18
+SIG-127,Platform data quality checks,Story,Done,2026-08-05,2026-08-12,2026-08-21
+SIG-128,Data mapping for suburban lines,Story,Done,2026-08-05,2026-08-12,
+SIG-129,Load test setup,Story,Done,2026-08-11,2026-08-18,2026-08-25
+SIG-130,Memory leak in the stream processor,Bug,Done,2026-08-18,2026-08-19,2026-08-26
+SIG-131,Event deduplication,Story,Done,2026-08-10,2026-08-17,2026-08-28
+SIG-131,Event deduplication,Story,Done,2026-08-10,2026-08-17,2026-08-28
+SIG-132,Delay feed v2: test environment rollout,Story,Done,2026-08-17,2026-08-24,2026-09-01
+SIG-133,Feed v2 consumer guide for Switch,Story,Done,2026-08-19,2026-08-26,2026-09-02
+SIG-134,Pipeline speed-up,Task,Done,2026-08-24,2026-08-27,2026-09-03
+SIG-135,Delay feed v2: backpressure handling,Story,Done,2026-08-24,2026-08-31,2026-09-04
+SIG-136,Crash on empty provider message,Bug,Done,2026-09-07,,2026-09-08
+SIG-137,Integration test environment refresh,Story,Done,2026-08-24,2026-08-31,2026-09-10
+SIG-138,Archive old feed v1 data,Task,In Progress,2026-07-20,2026-07-27,
+SIG-139,TEST please ignore,Task,Done,2026-09-09,2026-09-09,2026-09-09
+SWI-205,Walking times for 5 stations,Story,Done,2026-08-06,2026-08-13,2026-08-20
+SIG-141,Delay feed v2: new stream processor,Story,Done,2026-09-04,2026-09-11,2026-09-22
+SIG-142,Platform-change events for 5 pilot stations,Story,Done,2026-09-07,2026-09-14,2026-09-23
+SIG-144,Data mapping for regional trains,Story,Done,2026-09-04,2026-09-11,2026-09-17
+SIG-145,Load test with peak-hour data,Story,Blocked,2026-09-07,2026-09-14,
+SIG-147,Alerting for feed outages,Story,Blocked,2026-09-04,2026-09-11,
+SIG-148,Documentation of the feed format,Task,Done,2026-09-14,2026-09-21,2026-09-24
+SIG-150,Fix flaky integration tests,Bug,In Progress,2026-09-10,2026-09-15,
+SIG-151,Feed v2: station coverage report,Story,Done,2026-09-18,2026-09-25,2026-09-29
+SIG-152,Feed v2 rollout: major stations batch 1,Story,In Progress,2026-09-21,2026-09-28,
+SIG-153,Upgrade stream processor library,Task,Done,2026-09-22,2026-09-25,2026-10-01
+SIG-154,Platform-change events: station list import,Story,Done,2026-09-21,2026-09-28,2026-10-05

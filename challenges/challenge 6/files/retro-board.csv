@@ -1,0 +1,41 @@
+ID,Note,Votes
+1,"Test data from the provider is late again.",3
+2,"We lose at least two days per sprint waiting for test data.",7
+3,"Can we ask the provider for test data much earlier?",2
+4,"The load test is still not done because the data never arrives on time.",3
+5,"I'm tired of explaining why the load test is late.",1
+6,"Maybe we could generate our own peak-hour test data?",2
+7,"Nobody owns the test data topic. It just floats around.",4
+8,"Good that the test data problem is finally on Kim's radar.",0
+9,"Wednesdays are meeting hell. No time to write code.",6
+10,"Refinement plus two syncs on one Wednesday is too much.",3
+11,"Can we finally move Refinement to Tuesday?",4
+12,"I would love one meeting-free afternoon per week.",2
+13,"Too many status meetings, not enough decisions.",2
+14,"The Daily is short and focused. Let's keep it that way.",1
+15,"I skip the ART Sync notes because I have no time to read them.",0
+16,"Flaky integration tests cost us hours every week.",5
+17,"3 of 7 integration tests are stable now. Good progress!",0
+18,"As the only tester here, I feel testing always gets squeezed at the end of the sprint.",3
+19,"We should fix the flaky tests before we start new features.",2
+20,"The pipeline was red for a whole day and nobody felt responsible.",2
+21,"As our only DevOps person, I can't keep the pipeline green for everyone.",1
+22,"Still waiting for Depot's monitoring rules. Without them, no alerting.",2
+23,"Who owns the platform-change events, us or Concourse? We need a decision.",3
+24,"Switch keeps asking when feed v2 is ready for them, and we have no date.",1
+25,"Depot waits for our alert definitions and we wait for their rules. Classic deadlock.",5
+26,"The joint session with Switch on the feed format was really useful.",0
+27,"Dependencies should be on the program board before PI Planning, not discovered during it.",1
+28,"Pairing between developers and data engineers works great.",1
+29,"I learned a lot about stream processing this sprint.",0
+30,"Good atmosphere in the team, even under pressure.",2
+31,"Thanks for helping me with the regional train mapping!",0
+32,"Knowledge about the feed internals sits in two heads only. That's a risk.",4
+33,"We help each other without being asked.",0
+34,"Sometimes discussions in the Daily get personal.",2
+35,"Kiro saved me an hour writing test cases.",0
+36,"Not sure what we may put into Kiro. The new agreement helps.",1
+37,"I don't want my prompts to be monitored.",2
+38,"Kim said our status update was the clearest on the train. Nice!",1
+39,"Rail Ops liked the platform-change messages. Good feedback for once.",0
+40,"Our work is invisible until something breaks.",1

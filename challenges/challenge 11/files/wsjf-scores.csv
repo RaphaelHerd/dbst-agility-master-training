@@ -1,0 +1,31 @@
+Feature,Business Owner,Business Value,Time Criticality,Risk Reduction
+F1,Passenger Experience,13,8,8
+F1,Operations,13,13,8
+F1,Platform,8,5,13
+F2,Passenger Experience,5,5,13
+F2,Operations,13,20,13
+F2,Platform,8,8,13
+F3,Passenger Experience,20,13,2
+F3,Operations,8,5,3
+F3,Platform,3,2,1
+F4,Passenger Experience,8,3,2
+F4,Operations,5,2,2
+F4,Platform,2,1,1
+F5,Passenger Experience,13,5,3
+F5,Operations,8,5,2
+F5,Platform,3,2,2
+F6,Passenger Experience,8,20,5
+F6,Operations,5,8,3
+F6,Platform,3,8,2
+F7,Passenger Experience,1,2,3
+F7,Operations,3,5,8
+F7,Platform,8,13,20
+F8,Passenger Experience,1,1,2
+F8,Operations,2,2,3
+F8,Platform,8,5,13
+F9,Passenger Experience,13,8,5
+F9,Operations,8,5,3
+F9,Platform,5,3,2
+F10,Passenger Experience,8,8,13
+F10,Operations,13,13,13
+F10,Platform,8,8,13

@@ -1,0 +1,33 @@
+Key,Project,Summary,Issue Type,Status,Status Category,Resolution,Labels,Story Points,Sprint,Created,Resolved
+SIG-145,SIG,Load test with peak-hour data,Story,Blocked,In Progress,,test-data,5,Sprint 15,2026-09-07,
+SIG-147,SIG,Alerting for feed outages,Story,Blocked,In Progress,,dependency,3,Sprint 15,2026-09-04,
+SIG-150,SIG,Fix flaky integration tests,Bug,In Progress,In Progress,,flaky-tests,,Sprint 15,2026-09-10,
+SIG-151,SIG,Feed v2: station coverage report,Story,Done,Done,Done,feed-v2,3,Sprint 15,2026-09-18,2026-09-29
+SIG-152,SIG,Feed v2 rollout: major stations batch 1,Story,In Progress,In Progress,,feed-v2,5,Sprint 15,2026-09-21,
+SIG-153,SIG,Upgrade stream processor library,Task,Done,Done,Done,,2,Sprint 15,2026-09-22,2026-10-01
+SIG-154,SIG,Platform-change events: station list import,Story,Done,Done,Done,,3,Sprint 15,2026-09-21,2026-10-05
+SIG-157,SIG,Provider contract question,Task,Blocked,In Progress,,test-data,1,Sprint 15,2026-09-30,
+SIG-158,SIG,Feed v2 rollout: major stations batch 2,Story,To Do,To Do,,feed-v2,,Sprint 15,2026-10-02,
+SWI-198,SWI,Wrong walking time at one platform,Bug,In Progress,In Progress,,,,Sprint 15,2026-08-20,
+SWI-208,SWI,Feed v1 adapter for alternative routes,Story,Done,Done,Done,dependency,5,Sprint 14,2026-08-10,2026-09-18
+SWI-216,SWI,Switch to delay feed v2,Story,Blocked,In Progress,,dependency,8,Sprint 15,2026-08-28,
+SWI-219,SWI,Performance tuning,Story,In Progress,In Progress,,,5,Sprint 15,2026-08-27,
+SWI-222,SWI,"Acceptance criteria for ""connection at risk""",Story,Blocked,In Progress,,rail-ops,3,Sprint 15,2026-09-01,
+SWI-224,SWI,Walking times for 5 more stations,Story,Done,Done,Done,,3,Sprint 15,2026-09-21,2026-09-30
+SWI-225,SWI,Alternative routes for night trains,Story,To Do,To Do,,,,Sprint 15,2026-09-29,
+CON-296,CON,Wrong platform shown for split trains,Bug,To Do,To Do,,,,,2026-08-12,
+CON-299,CON,App freezes on login,Bug,Done,Done,Done,,,Sprint 14,2026-08-01,2026-09-15
+CON-305,CON,Final notification texts,Story,Blocked,In Progress,,rail-ops,3,Sprint 15,2026-08-25,
+CON-310,CON,Dark mode for the station view,Story,Done,Done,Done,,3,Sprint 14,2026-09-08,2026-09-27
+CON-312,CON,Accessibility labels for the timetable,Story,Done,Done,Done,,2,Sprint 15,2026-09-24,2026-10-02
+CON-313,CON,Agree on ownership of platform-change events,Story,To Do,To Do,,dependency,3,Sprint 15,2026-09-25,
+CON-314,CON,Duplicate push notifications,Bug,To Do,To Do,,,,Sprint 15,2026-09-16,
+CON-315,CON,Notification settings screen,Story,To Do,To Do,,,,Sprint 15,2026-09-30,
+DEP-498,DEP,Log rotation fails on weekends,Bug,In Progress,In Progress,,,,Sprint 15,2026-07-30,
+DEP-504,DEP,Migrate the logs of Team Concourse,Story,To Do,To Do,,dependency,5,Sprint 15,2026-08-31,
+DEP-507,DEP,Monitoring rules for the delay feed,Story,Blocked,In Progress,,dependency,5,Sprint 15,2026-09-02,
+DEP-510,DEP,Request form for ad-hoc requests,Story,Done,Done,Done,,3,Sprint 15,2026-09-25,2026-09-29
+DEP-511,DEP,Rotate on-call schedule for the next PI,Task,Done,Done,Done,,2,Sprint 15,2026-09-28,2026-10-04
+DEP-512,DEP,Second logging cluster,Story,Done,Done,Won't Do,,3,Sprint 15,2026-09-24,2026-10-01
+DEP-513,DEP,Runbook for the stream processor,Story,In Progress,In Progress,,,3,Sprint 15,2026-09-28,
+DEP-514,DEP,Cost dashboard for the platform,Story,To Do,To Do,,,,Sprint 15,2026-10-01,
