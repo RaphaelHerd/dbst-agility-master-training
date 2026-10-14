@@ -1,9 +1,0 @@
-Key,Summary,Team,Status,Comment
-SIG-145,Load test with peak-hour data,Signal,Blocked,"Test data from the provider late again. Nobody chased the provider last week."
-SIG-147,Alerting for feed outages,Signal,Blocked,"Waiting for Depot. The monitoring rules were promised two weeks ago."
-SWI-216,Switch to delay feed v2,Switch,Blocked,"Feed v2 still not in our test environment. Signal was asked twice, no date yet."
-SWI-222,"Acceptance criteria for ""connection at risk""",Switch,Blocked,"Rail Ops has not confirmed the criteria; the PO is on it. Examples for Rail Ops are prepared."
-CON-305,Final notification texts,Concourse,Blocked,"Waiting for Rail Ops approval. A team member is absent from next month, handover needed."
-CON-314,Duplicate push notifications,Concourse,To Do,"Root cause unknown, possibly in the event feed. Nobody is testing it this week."
-DEP-507,Monitoring rules for the delay feed,Depot,Blocked,"No alert definitions from Signal. Signal said they would send them."
-DEP-504,Migrate the logs of Team Concourse,Depot,To Do,"Postponed because of release 3.2. Not expected before PI Planning."
