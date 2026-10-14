@@ -27,6 +27,19 @@
 | **Decisions** | The decisions come first, and each one is a clear question with a reason |
 | **Ten minutes** | Three slides, one message each, no ticket IDs |
 | **Trust** | AI label, review gate passed, no names of team members |
+| **Your prompts** | The skeleton prompt marks where sources disagree; each format builds on the one before; the consistency check lists differences instead of fixing them silently |
+
+## 💬 Sample Prompts
+
+Prompts like these worked well. Yours don't need the same words; compare what they ask for.
+
+| Step | Sample prompt | Why it works |
+|---|---|---|
+| **Skeleton** | *"Read all files, every word. Then give me only the skeleton of the train's readiness story: one sentence for the status, then at most five points: where we stand, the forecast, the priorities, the risks and the decisions needed. Mark every place where two sources disagree."* | Complete reading, skeleton-of-thought, and a mark where the trap hides |
+| **One-pager** | *"You write for a steering committee that reads this pre-read in two minutes. Turn our skeleton into a one-page readiness summary: decisions first, then the status, the forecast, the priorities and the risks. No ticket IDs, no names of team members."* | Audience, order and exclusions in one prompt |
+| **Slides** | *"Turn the one-pager into three slides. Each slide has a headline that states its message and at most five short lines."* | Builds on the one-pager, so the story stays the same |
+| **Opening sentence** | *"Write five different opening sentences for Kim, each at most 30 words, each one telling the whole story."* | Five options to choose from, and a limit that forces focus |
+| **Consistency check** | *"Compare the one-pager, the slides and the opening sentence. Is every number and every decision the same in all three? List every difference."* | Finds the gaps between the formats before the jury does |
 
 ## 🧭 Part 1: The Trap in the Sources
 
@@ -46,7 +59,7 @@
 
 ## 🏆 Part 3: The Consistency Check
 
-A typical finding of the check *"Is every number and every decision the same in all three?"*:
+Typical findings of the consistency check:
 
 | Difference | Fix |
 |---|---|

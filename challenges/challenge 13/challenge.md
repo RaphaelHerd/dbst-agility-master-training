@@ -24,36 +24,38 @@ Everything you need is already there: your results from this week and the status
 
 ## ✅ Your Tasks
 
+You write every prompt yourselves. The steps say what each prompt must achieve, not how to phrase it.
+
 ### 🧭 Part 1 - One Story First
 
-1. Add `kim-briefing.md`, `train-status.md` and your `results` folder to the chat. Let Kiro **read everything** and build a **skeleton**:
-   > 💬 *"Read all files, every word. Then give me only the skeleton of the train's readiness story: one sentence for the status, then at most five points: where we stand, the forecast, the priorities, the risks and the decisions needed. Mark every place where two sources disagree."*
+1. Add `kim-briefing.md`, `train-status.md` and your `results` folder to the chat. Let Kiro **read everything, every word**, and build **only the skeleton** of the train's readiness story:
+   - one sentence for the status;
+   - then **at most five points**: where you stand, the forecast, the priorities, the risks and the decisions needed;
+   - a mark on every place where **two sources disagree**.
 2. **Decide the story as a group.** Where sources disagree, which one is true today? Which decisions does the steering committee really need to take?
 
 ### 🖋️ Part 2 - Three Formats, One Story
 
-1. **The one-pager:**
-   > 💬 *"You write for a steering committee that reads this pre-read in two minutes. Turn our skeleton into a one-page readiness summary: decisions first, then the status, the forecast, the priorities and the risks. No ticket IDs, no names of team members."*
+1. **The one-pager:** tell Kiro who reads it: a steering committee that reads this pre-read **in two minutes**. Kiro turns your skeleton into one page, **decisions first**, then the status, the forecast, the priorities and the risks. **No ticket IDs, no names of team members.**
 
    Copy it into **Word** and save it as `C13-one-pager.docx`.
-2. **The three slides:**
-   > 💬 *"Turn the one-pager into three slides. Each slide has a headline that states its message and at most five short lines."*
+2. **The three slides:** let Kiro turn the one-pager, not the raw files, into **three slides**. Each slide has a headline that states its message and **at most five short lines**.
 
    Build them in **PowerPoint** and save them as `C13-slides.pptx`.
-3. **The opening sentence:**
-   > 💬 *"Write five different opening sentences for Kim, each at most 30 words, each one telling the whole story."*
+3. **The opening sentence:** ask for **five different** opening sentences for Kim, each at most 30 words, each one telling the whole story.
 
    Choose one, and change it until it sounds like Kim.
 
 ### 🏆 Part 3 - Review Gate and Jury
 
 1. Run all three through your gate: `#review-checklist`, followed by each draft.
-2. Check that they **tell the same story**:
-   > 💬 *"Compare the one-pager, the slides and the opening sentence. Is every number and every decision the same in all three? List every difference."*
+2. Check that they **tell the same story**: let Kiro compare the one-pager, the slides and the opening sentence, and **list every difference** in numbers and decisions.
 3. Fix what fails, then add the AI label and a log line.
 4. **Present to the jury:** first the opening sentence, then the three slides.
 
 > 💡 **Tip:** Write the story once, then translate it into three formats. Three separate prompts produce three different stories.
+
+> 💡 **Tip:** The solution shows sample prompts. Open it only after you have tried your own.
 
 > 📚 **Kiro docs:** [Steering](https://kiro.dev/docs/steering/) explains how to call your review checklist with `#`.
 
@@ -71,6 +73,7 @@ Everything you need is already there: your results from this week and the status
 - Which number from earlier in the week was no longer true?
 - Which decision did your pack ask for first, and why?
 - What did the jury remember from your opening sentence?
+- Which of this week's prompt techniques did you use without being told to?
 
 ## 🔗 Where This Leads
 

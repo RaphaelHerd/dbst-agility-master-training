@@ -24,12 +24,19 @@ Worse: one decision from week one of the PI was **never written down** at all. "
 
 ## ✅ Your Tasks
 
+You write every prompt yourselves. The steps say what each prompt must achieve, not how to phrase it.
+
 ### 🗂️ Part 1 - Pages That Can Be Found
 
-1. Add `wiki-export.md` to the chat and make sure Kiro **reads every page**:
-   > 💬 *"Read all 14 pages. Don't skip a single word. List the decisions you find, with their page number, the pages that contradict each other, and the pages that are outdated or duplicates."*
-2. Let Kiro design a **template with delimiters**:
-   > 💬 *"Design a knowledge-page template that makes decisions easy to find. Mark each section with ### and put every fill-in instruction between <<< and >>>. Sections: metadata, summary, decisions, open questions, details, change log, sources, AI label and log. If a section has no source, the page says 'open'."*
+1. Add `wiki-export.md` to the chat and write a prompt that makes sure Kiro **reads every page, every word**. It should list:
+   - the decisions it finds, with their page number;
+   - the pages that contradict each other;
+   - the pages that are outdated or duplicates.
+2. Let Kiro design a **template with delimiters**. Your prompt sets:
+   - the purpose: decisions must be easy to find;
+   - how sections are marked and how fill-in instructions are marked, for example `###` for sections and `<<<` `>>>` around instructions;
+   - the sections: metadata, summary, decisions, open questions, details, change log, sources, AI label and log;
+   - the rule: if a section has no source, the page says "open".
 3. **Save the template twice:**
    - as a **reusable prompt:** in the Kiro panel, open **Steering**, click **+**, name the file `knowledge-page-template`, put these three lines at the very top and paste the template below them:
 
@@ -39,22 +46,20 @@ Worse: one decision from week one of the PI was **never written down** at all. "
      ---
      ```
    - in **Word**: paste it, then **File → Save As → Word Template** as `C07-knowledge-page-template.dotx`, your version for SharePoint.
-4. Let Kiro propose **tags and metadata**:
-   > 💬 *"Propose metadata fields and at most 15 tags for this wiki. Then give each of the 14 pages a type, tags and a status, and say whether to keep, merge or archive it."*
-5. **Write the recap of your week:** type `#knowledge-page-template` in the chat, add your `results` folder, then ask:
-   > 💬 *"Fill in the template for one page: Team Signal, what we did and decided last week. Use only our results from C01 to C06."*
+4. Let Kiro propose **tags and metadata**: metadata fields and **at most 15 tags** for this wiki. Then a type, tags and a status for each of the 14 pages, with a recommendation: keep, merge or archive.
+5. **Write the recap of your week:** type `#knowledge-page-template` in the chat and add your `results` folder. Then ask Kiro to fill in the template for one page about your team's last week, using **only your results from C01 to C06**.
 
 ### ✍️ Part 2 - The Decision Nobody Wrote Down
 
-1. Add `bug-decision-notes.md` and let Kiro draft the record with your template: `#knowledge-page-template` *"Write a decision record for 'we don't estimate bugs'. Version 1.0."*
-2. Let Kiro play the **constructive critic**:
-   > 💬 *"Act as an expert and critic in team decision-making. Criticize this decision record, convince me why it's weak, and tell me how to improve it. Look especially for one-sided reasoning and for voices that are missing."*
-3. Let Kiro **self-refine**:
-   > 💬 *"Use your feedback to write version 1.1. Use only facts from the notes; where something is unknown, write 'open'. Add a change log."*
+1. Add `bug-decision-notes.md`, call `#knowledge-page-template` and ask for a **decision record** for "we don't estimate bugs", version 1.0.
+2. Let Kiro play the **constructive critic**: give it the role of an expert and critic in team decision-making, and ask it to criticize the record, explain why it is weak and how to improve it. Point it especially to **one-sided reasoning** and **voices that are missing**.
+3. Let Kiro **self-refine**: ask for version 1.1 based on its own feedback, using **only facts from the notes**, writing "open" where something is unknown, and adding a change log.
 4. **Check version 1.1.** Is anything in it that isn't in the notes? Delete it. The status stays **proposed**: Kim confirms the decision, not Kiro.
 5. Add the AI label and a log line.
 
 > 💡 **Tip:** A template in a steering file is a prompt you never have to type again. Kiro reads it only when you call it with `#`.
+
+> 💡 **Tip:** The solution shows sample prompts. Open it only after you have tried your own.
 
 > 📚 **Kiro docs:** [Steering](https://kiro.dev/docs/steering/) explains manual inclusion and how to call a steering file with `#`.
 
@@ -74,6 +79,7 @@ Worse: one decision from week one of the PI was **never written down** at all. "
 - Which two pages contradict each other, and what does that explain?
 - Where did the three wrong numbers in C03's answer C probably come from?
 - What did version 1.0 of the decision record leave out?
+- What did your critic prompt find that a plain "improve this" would have missed?
 
 ## 🔗 Where This Leads
 

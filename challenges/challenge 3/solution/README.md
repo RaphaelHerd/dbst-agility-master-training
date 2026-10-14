@@ -21,7 +21,19 @@
 |---|---|
 | **Validation log** | Every claim has a verdict and a source, and "the playbook says nothing about it" is marked ❓, not ❌. The sample splits the answers into 17 claims; your split may differ |
 | **Corrected DoD** | Every line traces back to your team DoD or the ART minimum, both invented steps are gone, and the softened and the dropped point are back in their original wording |
+| **Your prompts** | They name the playbook as the only source, ask for a quote per claim or line, say what to do when the source is silent, and check in both directions |
 | **Label and log** | Both files show the AI label and a log line |
+
+## 💬 Sample Prompts
+
+Prompts like these worked well. Yours don't need the same words; compare what they ask for.
+
+| Step | Sample prompt | Why it works |
+|---|---|---|
+| **Grounding** | *"According to art-playbook.md only, check every claim in answer-b.md. For each claim, quote the passage that confirms or contradicts it. If the playbook says nothing about a claim, write 'not in the source'."* | One source, a quote as proof, and a way out for claims the source doesn't cover, so Kiro doesn't have to guess |
+| **How sure** | *"How sure are you about each verdict, from 1 (guess) to 5 (certain), and why?"* | Shows where to look first; the "why" reveals weak reasoning |
+| **Deep analysis** | *"This is a complex task, so take your time. Read every word of the playbook first. Then check answer C claim by claim, with special attention to numbers and dates."* | Slows Kiro down and points it at the spots where errors hide |
+| **Line by line** | *"Compare dod-polished.md line by line with dod-agreed.md and section 3 of art-playbook.md. For each line of the polished version, name its source and quote it. Mark every line that has no source. Then list everything from the two sources that is missing or weaker in the polished version. Don't skip a single line."* | Checks in both directions: what was added and what went missing |
 
 ## 🔍 Part 1: The Three Answers at a Glance
 

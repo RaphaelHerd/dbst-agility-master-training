@@ -27,6 +27,19 @@
 | **Model** | Excel calculates everything, with no number typed in from the chat; the total of finished items matches the cleaned data (31) |
 | **Forecast** | It gives one number with its confidence, both estimates with a probability, the back-test and what the number does not mean |
 | **Early warnings** | Each signal was checked in Excel, including the one that turned out not to be real |
+| **Your prompts** | The data check proposes but doesn't fix; the plan comes before the formulas; every prompt forbids Kiro to calculate |
+
+## 💬 Sample Prompts
+
+Prompts like these worked well. Yours don't need the same words; compare what they ask for.
+
+| Step | Sample prompt | Why it works |
+|---|---|---|
+| **Data check** | *"Check every row of jira-export.csv for data-quality problems: duplicates, items from other teams, test tickets, impossible or missing dates, and incomplete weeks. Use the sprint notes and the team calendar as context. Make a table: row, problem, effect on a forecast, proposed fix. Don't fix anything yet."* | Names what to look for, adds context, and leaves the decisions with you |
+| **Plan first** | *"We want to know how many weeks the 24 remaining items will take, based on how many items we finished per week. First make a plan: which steps, and which sheets in Excel? Don't calculate anything yet."* | Plan-and-solve: you see the method before any number exists |
+| **Formulas** | *"Write the Excel formulas for each step: items finished per week with COUNTIFS, cycle time, work in progress per week, and a Monte Carlo simulation with 1000 runs that draws random weeks from our history with INDEX and RANDBETWEEN. Explain each formula. Don't calculate any results yourself."* | Formulas you can check, and Excel does the math |
+| **Back-test** | *"Use only weeks 1 to 6 to forecast how many items we finish in weeks 7 to 12. Give me the formulas for a range with 85 % confidence."* | Tests the method against the past before anyone trusts it |
+| **Early warnings** | *"Which signals in this data warn us early that the forecast is getting worse, for example aging items, rising work in progress or longer cycle times? Give me the Excel formula for each."* | Every signal comes with a formula, so you can check whether it's real |
 
 ## 🔍 Part 1: The Traps in the Export
 

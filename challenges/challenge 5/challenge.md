@@ -26,10 +26,11 @@ Alex, your PO, also needs a decision from the steering committee. And since yest
 
 ## ✅ Your Tasks
 
+You write every prompt yourselves. The steps say what each prompt must achieve, not how to phrase it.
+
 ### ✍️ Part 1 - One Set of Facts, Three Drafts
 
-1. **Facts first.** Add the `files` folder to the chat:
-   > 💬 *"Read every line of sprint-notes.md and jira-export.csv. Summarize Sprint 14 as a fact list: goal, items with status, numbers and blockers. Mark every place where the two files disagree."*
+1. **Facts first.** Add the `files` folder to the chat and write a prompt that turns the sprint notes and the Jira export into a **fact list**: goal, items with status, numbers and blockers. Make sure Kiro reads **every line** of both files and **marks every place where they disagree**.
 2. **Check the fact list.** Where the files disagree, decide which one is right. Do any math in **Excel**, not in the chat.
 3. **One prompt per reader.** Give Kiro a role, a tone and a skeleton, and tell it what to leave out:
 
@@ -39,14 +40,12 @@ Alex, your PO, also needs a decision from the steering committee. And since yest
    | 🏛️ Steering committee | Agility Master to decision-makers: factual | Decision needed · background · options · recommendation · if no decision is made | Ticket IDs and technical detail |
    | 🚉 Rail Ops | Agility Master to operations: plain language | What changes for you · what we need from you | Ticket IDs, internal system names, people's names, jargon |
 
-   For the decision paper, let Kiro build the **skeleton first**:
-   > 💬 *"You write for a steering committee that has five minutes for this topic. First, give me only the skeleton of a one-page decision paper based on decision-needed.md. Wait for my OK before you fill it in."*
+   For the decision paper, use **skeleton-of-thought**: your prompt tells Kiro who reads the paper and how much time they have, asks for **only the skeleton** of a one-page paper first, and makes Kiro **wait for your OK** before it fills anything in.
 4. **Check every number** in all three drafts against the sprint notes and Jira.
 
 ### 🚦 Part 2 - Your Review Gate
 
-1. Turn your AI working agreement into a **review checklist**:
-   > 💬 *"Turn our AI working agreement into a review checklist for drafts that leave the team: at most 10 checks, each one answerable with pass or fail."*
+1. Write a prompt that turns your AI working agreement into a **review checklist** for drafts that leave the team: **at most 10 checks**, each one answerable with **pass or fail**.
 2. **Save it as a reusable prompt:** open the steering file `review-checklist` that you sketched in Setup 03 and paste the checklist below the three lines of front matter. No file yet? In the Kiro panel, open **Steering**, click **+**, name the file `review-checklist`, paste the checklist and put these three lines at the very top, so that Kiro loads the file only when you call it:
 
    ```
@@ -59,6 +58,8 @@ Alex, your PO, also needs a decision from the steering committee. And since yest
 5. Copy the decision paper into **Word** and save it as `C05-decision-paper.docx`.
 
 > 💡 **Tip:** The checklist finds problems. Whether a draft is good enough is still your call.
+
+> 💡 **Tip:** The solution shows sample prompts. Open it only after you have tried your own.
 
 > 📚 **Kiro docs:** [Steering](https://kiro.dev/docs/steering/) explains manual inclusion and how to call a steering file with `#`.
 
@@ -74,6 +75,7 @@ Alex, your PO, also needs a decision from the steering committee. And since yest
 
 - Where did Jira and the sprint notes disagree, and who noticed first: you or Kiro?
 - What did Kiro have to leave out for Rail Ops, and did it?
+- How did your three reader prompts differ from each other?
 - Which check in your review gate caught something?
 
 ## 🔗 Where This Leads

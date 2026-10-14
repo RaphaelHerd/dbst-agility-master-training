@@ -18,6 +18,21 @@
 | **To Robin** | It answers both questions with only what is true today, and makes no promises |
 | **To Sascha** | Risk, impact and ask fit into 80 words, every number is in your files, and your choice of tone has a reason |
 | **All five** | Each reply stays within 80 words, and your file shows the AI label and a log line |
+| **Your prompts** | One prompt per mail, each with a length limit, a source and a clear form; Member B's prompt gives Kiro a role |
+
+## 💬 Sample Prompts
+
+Prompts like these worked well. Yours don't need the same words; compare what they ask for.
+
+| Step | Sample prompt | Why it works |
+|---|---|---|
+| **Kim, lazy** | *"Answer Kim's mail."* | The starting point: no source, no length, no form, so Kiro guesses |
+| **Kim, precise** | *"Answer Kim's mail from inbox.md in one sentence of at most 40 words: did we reach our Sprint 14 goal, and what is our biggest blocker? Use only sprint-notes.md and name the item ID."* | A length limit, Kim's two exact questions, one source and the item ID |
+| **Alex** | *"Answer Alex's mail with three bullets of at most 20 words each: only what we didn't finish in Sprint 14, with item IDs. No introduction."* | An exact form and scope; "no introduction" makes it ready to paste |
+| **Member B** | *"You are an experienced Agility Master who explains things to developers without lecturing. Reply to Member B's mail in at most 80 words: friendly, honest and with one concrete example from our sprint notes."* | The role sets the voice; the limit and the real example keep it concrete |
+| **Robin** | *"Reply to Robin's mail in at most 80 words, formal and precise. Answer both questions with only what is true today. Don't promise anything."* | "Only what is true today" stops invented promises |
+| **Sascha** | *"Draft a reply to Sascha's mail in at most 80 words: the risk, what it affects, and what we need from whom. Write two versions: one calm and reassuring, one direct and urgent. Use only facts and numbers from our files."* | Both versions come from one prompt, so the comparison is fair; the last sentence blocks invented figures |
+| **The reader's view** | *"Act as a member of the steering committee. Read both versions. Which one helps you decide, and what is missing?"* | Role prompting from the reader's side shows what a text lacks |
 
 ## 🔍 Part 1: From Lazy to Precise
 

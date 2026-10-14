@@ -26,22 +26,23 @@ Alex has also drafted feedback for a development talk. It sounds fair, until you
 
 ## ✅ Your Tasks
 
+You write every prompt yourselves. The steps say what each prompt must achieve, not how to phrase it.
+
 ### 🗺️ Part 1 - From Skill Matrix to Team Gaps
 
-1. Add `skill-matrix.csv` and `pi-needs.md` to the chat and let Kiro **plan first**:
-   > 💬 *"We want a team-level gap map for the next PI. First make a plan: which steps, and which Excel formulas? Stay at team level: no statements about individual members. Don't calculate anything yet."*
+1. Add `skill-matrix.csv` and `pi-needs.md` to the chat and let Kiro **plan first**: the goal is a team-level gap map for the next PI. Ask only for the **steps and the Excel formulas**. Make clear that Kiro stays at **team level**, with no statements about individual members, and **calculates nothing yet**.
 2. Build the **gap map in Excel**, per skill and not per person: count the people at each level with `COUNTIF`, count those at level 2 or higher, compare with the need, and color the result with conditional formatting. Excel calculates.
-3. Use **skeleton-of-thought** for the learning paths:
-   > 💬 *"First give me only the skeleton of a learning-path page for the skills with a gap: one section per skill, with steps, who can help, and how we'll know it worked. Wait for my OK before you fill it in."*
-4. Add **development goals** as options:
-   > 💬 *"For each skill with a gap, write two development goals that any team member can choose in their own development talk, phrased as 'By the end of the next PI, I can …'. Don't assign goals to people."*
+3. Use **skeleton-of-thought** for the learning paths: ask Kiro first for **only the skeleton** of a learning-path page for the skills with a gap. Each skill gets a section with steps, who can help, and how you'll know it worked. Kiro **waits for your OK** before it fills anything in.
+4. Add **development goals** as options: two per skill with a gap, which **any team member can choose** in their own development talk, phrased as "By the end of the next PI, I can …". Kiro must **not assign goals to people**.
 
 ### 📝 Part 2 - A Feedback Draft, Read Twice
 
-1. Add `feedback-draft.md` and let Kiro play the **constructive critic**:
-   > 💬 *"Act as an expert in fair feedback. Check this draft for coded language, claims without evidence and recency bias. Quote each problem, explain why it's a problem and suggest better wording. Judge the text, not the person."*
-2. Let Kiro **rewrite** it:
-   > 💬 *"Rewrite the draft: describe behavior, not personality. Wherever evidence is missing, leave a placeholder [example]. Don't invent examples."*
+1. Add `feedback-draft.md` and let Kiro play the **constructive critic**. Your prompt should:
+   - give Kiro the role of an **expert in fair feedback**;
+   - name what to look for: **coded language**, claims without evidence and **recency bias**;
+   - ask Kiro to quote each problem, explain why it's a problem and suggest better wording;
+   - make clear that Kiro judges the **text, not the person**.
+2. Let Kiro **rewrite** the draft so that it describes behavior, not personality. Wherever evidence is missing, the rewrite keeps a **placeholder** such as `[example]`. Kiro **must not invent examples**.
 3. Check the rewrite, then add the AI label. The placeholders stay: only Alex can fill them with real examples.
 
 ### 🛑 Part 3 - The Ranking Request
@@ -50,6 +51,8 @@ Alex has also drafted feedback for a development talk. It sounds fair, until you
 2. Let Kiro draft a polite no: explain why, and offer what you *can* share: the team-level gap map and the learning paths.
 
 > 💡 **Tip:** Kiro may check the **words** of a feedback text. It must never judge the **person** behind them.
+
+> 💡 **Tip:** The solution shows sample prompts. Open it only after you have tried your own.
 
 > 📚 **Kiro docs:** [Steering](https://kiro.dev/docs/steering/) explains why your agreement shapes every answer.
 
@@ -68,6 +71,7 @@ Alex has also drafted feedback for a development talk. It sounds fair, until you
 - Which gap surprised you, and who on the train could help close it?
 - Which wording in the feedback draft sounds harmless but isn't?
 - How did Kiro react to the ranking request?
+- Which sentence in your rewrite prompt stopped Kiro from inventing evidence?
 
 ## 🔗 Where This Leads
 

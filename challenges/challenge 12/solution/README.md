@@ -26,6 +26,21 @@
 | **ART Sync report** | Two minutes: one top dependency, one top risk, a clear ask with names |
 | **Communication map** | Who, with whom, about what, how and by when, plus the people to inform and the escalation steps |
 | **Reply to Charlie** | It acknowledges your own part, proposes a deal with a clear cost, and escalates together, not against |
+| **Your prompts** | The reading prompt asks for hinted dependencies and needs without a supplier; the step back comes before the reply; the stress test reads the message as Charlie |
+
+## 💬 Sample Prompts
+
+Prompts like these worked well. Yours don't need the same words; compare what they ask for.
+
+| Step | Sample prompt | Why it works |
+|---|---|---|
+| **Read every item** | *"Read every item of all four teams, every word. List every dependency between teams, including the ones only hinted at in a description, and dependencies on people outside the train. For each: who needs what from whom, by which sprint, and in which sprint it is delivered. Mark every need that no item delivers."* | *Ensure all content is analyzed* finds the hidden dependencies; the last sentence finds the missing ones |
+| **Risk register** | *"Propose the main risks for our PI from this backlog. For each one: a short description, a probability and an impact from 1 to 3, and why. Don't calculate a score, and don't set a ROAM status or an owner."* | Kiro proposes, Excel scores, and people own the risks |
+| **ART Sync report** | *"Write a two-minute report for the ART Sync in spoken language, at most 150 words: our top dependency, our top risk and what we need from whom."* | A word limit and three fixed points fit two minutes |
+| **Communication map** | *"For this dependency, map who needs to talk to whom, about what, how and by when. Include the people who only need to be informed, and the next step if they can't agree."* | Covers the people who are easy to forget, and the escalation path |
+| **Step back** | *"Before we reply, step back: what could be behind Charlie's message? Think about capacity, ownership and what we haven't delivered ourselves."* | Looks at your own part before you answer |
+| **Reply** | *"Write a reply to Charlie: propose a solution, say what it costs Team Depot, and name the next step if we can't agree. Respectful, at most 200 words."* | A proposal with a clear cost instead of a complaint |
+| **Stress test** | *"Read the message as Charlie. What would make you say no? Then improve the message."* | Role prompting plus self-refine: the receiver's view finds the weak spots |
 
 ## 🗺️ Part 1: The Eleven Dependencies
 

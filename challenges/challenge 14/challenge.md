@@ -24,21 +24,23 @@ And on Monday, you're back in your real team. Which of this week's prompts and r
 
 ## ✅ Your Tasks
 
+You write every prompt yourselves, as you have all week.
+
 ### 🔄 Part 1 - A Short Retro on Two Days
 
-1. Let Kiro shorten your retro script from C06:
-   > 💬 *"Shorten our retro script for a short retro about the last two days: a check-in, two powerful questions of different types, and one action for each person."*
+1. Let Kiro **shorten your retro script** from C06 for a short retro about the last two days: a check-in, **two powerful questions of different types**, and one action for each person.
 2. **Run the retro as a group.** Be honest about what didn't work: with Kiro, with the challenges, and with yourselves.
 3. Write down the result as a short page: what worked, what didn't, and one action each.
 
 ### 🧳 Part 2 - Your Transfer Plan
 
-1. Add your `results` folder and the files in `.kiro/steering/` to the chat:
-   > 💬 *"Look at everything we built this week. Which three prompts, steering rules or techniques would help most in a real Agility Master's week? For each one: what it does, where to use it, and what to adapt."*
+1. Add your `results` folder and the files in `.kiro/steering/` to the chat. Let Kiro look at everything you built this week and suggest the **three prompts, steering rules or techniques** that would help most in a real Agility Master's week. For each one: what it does, where to use it, and **what to adapt**.
 2. **Choose your own three.** Kiro's list is a suggestion; your team is yours.
 3. Fill in `transfer-plan-template.md`: your three things, the company rules you check first, your first step and how you'll know it worked.
 
 > 💡 **Tip:** Your company's AI assistant may have no steering files. Then keep your rules as a short text that you paste at the start of a chat.
+
+> 💡 **Tip:** The solution shows sample prompts. Open it only after you have tried your own.
 
 ## 📦 Deliverables
 
@@ -52,6 +54,7 @@ And on Monday, you're back in your real team. Which of this week's prompts and r
 
 - Which challenge changed how you think about AI at work?
 - What didn't work, and what would you change?
+- How have your own prompts changed since C01?
 - What will you do differently on Monday?
 
 > ⭐ *Two days, fourteen challenges, one rule that holds everything together: **AI drafts. People decide.***

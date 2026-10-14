@@ -25,6 +25,17 @@
 | **Cleaned exports** | No names, initials, @mentions or nicknames are left; no health details, private details or judgments about people; nothing shows who wrote what; and the facts the risk analysis needs are still there |
 | **Agreement** | It fits on one page, covers all seven elements, settles every conflict from the thread, contains nothing your group didn't decide, and keeps the placeholders for your company's rules |
 | **Steering file and Word version** | The steering file is in `.kiro/steering/`, and the Word version has the same content plus the AI label and a log line |
+| **Your prompts** | The pseudonymizing prompt asks for a list of changes; the agreement prompt makes Kiro ask before it drafts |
+
+## 💬 Sample Prompts
+
+Prompts like these worked well. Yours don't need the same words; compare what they ask for.
+
+| Step | Sample prompt | Why it works |
+|---|---|---|
+| **Pseudonymize** | *"Pseudonymize these two files. Replace every person with a pseudonym (Member A, B, C …) and add the team. Remove health information, private details and judgments about people, but keep the facts the risk analysis needs. Then list every change you made."* | Says what goes and what stays; the change list makes your check faster |
+| **Different perspectives** | *"Read the thread. For the PO, the dev lead and the works council, describe what each of them wants, what each of them fears and where they agree. Then name the two biggest conflicts."* | Wants, fears and common ground per person, then the conflicts: a full picture before anyone drafts |
+| **Ask before answering** | *"You are an experienced Agility Master. Draft a one-page AI working agreement for our team. Before you start, ask me up to five questions about decisions only we can make. Wait for my answers."* | "Wait for my answers" keeps the decisions with the group |
 
 ## ✂️ Part 1: What Kiro Typically Misses
 

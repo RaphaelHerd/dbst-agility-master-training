@@ -27,6 +27,21 @@
 | **Tags** | A short list (at most 15), one way of writing them, and every one of the 14 pages sorted with a recommendation |
 | **Week recap** | It uses your template, names decisions with who and when, and invents nothing that isn't in your results |
 | **Decision record** | Version 1.1 names the condition, the consequences and the missing voices; the status is "proposed", not "approved" |
+| **Your prompts** | The reading prompt demands every page, the template prompt fixes delimiters and sections, and the critic prompt names what to look for |
+
+## 💬 Sample Prompts
+
+Prompts like these worked well. Yours don't need the same words; compare what they ask for.
+
+| Step | Sample prompt | Why it works |
+|---|---|---|
+| **Read every page** | *"Read all 14 pages. Don't skip a single word. List the decisions you find, with their page number, the pages that contradict each other, and the pages that are outdated or duplicates."* | Forces a complete read and asks for three concrete lists |
+| **Template** | *"Design a knowledge-page template that makes decisions easy to find. Mark each section with ### and put every fill-in instruction between <<< and >>>. Sections: metadata, summary, decisions, open questions, details, change log, sources, AI label and log. If a section has no source, the page says 'open'."* | Delimiters separate structure from instructions; the "open" rule stops invented content |
+| **Tags** | *"Propose metadata fields and at most 15 tags for this wiki. Then give each of the 14 pages a type, tags and a status, and say whether to keep, merge or archive it."* | A limit keeps the tag list usable; applying it to all 14 pages tests it at once |
+| **Week recap** | *"#knowledge-page-template Fill in the template for one page: Team Signal, what we did and decided last week. Use only our results from C01 to C06."* | The template from the steering file plus a strict source |
+| **Decision record** | *"#knowledge-page-template Write a decision record for 'we don't estimate bugs'. Version 1.0."* | Same template, so the record looks like every other page |
+| **Constructive critic** | *"Act as an expert and critic in team decision-making. Criticize this decision record, convince me why it's weak, and tell me how to improve it. Look especially for one-sided reasoning and for voices that are missing."* | Telling Kiro where to look gets a sharper critique than "improve this" |
+| **Self-refine** | *"Use your feedback to write version 1.1. Use only facts from the notes; where something is unknown, write 'open'. Add a change log."* | Refines without inventing, and documents what changed |
 
 ## 🗂️ Part 1: What the 14 Pages Reveal
 

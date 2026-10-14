@@ -25,27 +25,29 @@ Then **Alex** writes: two of your six team members won't be available in the nex
 
 ## ✅ Your Tasks
 
+You write every prompt yourselves. The steps say what each prompt must achieve, not how to phrase it.
+
 ### 📊 Part 1 - One Ranking, Open Eyes
 
-1. Add `kim-request.md`, `wsjf-scores.csv` and `features.csv` to the chat. Let Kiro **plan the consolidation and write the formulas**:
-   > 💬 *"For each feature and each WSJF component, we need the average, the median and the spread between the highest and the lowest score. Then WSJF from the averages and from the medians. Write the Excel formulas and explain them. Don't calculate anything yourself."*
+1. Add `kim-request.md`, `wsjf-scores.csv` and `features.csv` to the chat. Let Kiro **plan the consolidation and write the formulas**. Your prompt should ask for:
+   - the **average**, the **median** and the **spread** between the highest and the lowest score, for each feature and each WSJF component;
+   - WSJF calculated once from the averages and once from the medians;
+   - Excel formulas with an explanation, and **no results calculated by Kiro**.
 2. Build the sheet in **Excel** and rank the features. Where do the owners disagree most?
-3. Run a **decision check** with step-back prompting:
-   > 💬 *"Step back first: which principles should decide the order of features on a release train? Then look at our ranking: which single assumption would change the top 3? Check the notes in features.csv, too."*
-4. Look for **bias**:
-   > 💬 *"Compare the three business owners. Does anyone score their own area consistently higher? What does that mean for an average?"*
+3. Run a **decision check** with step-back prompting: let Kiro first name the **principles** that should decide the order of features on a release train. Only then does it look at your ranking and name the **single assumption** that would change the top 3, including what the notes in `features.csv` say.
+4. Look for **bias**: let Kiro compare the three business owners. Does anyone score their own area consistently higher, and what does that mean for an average?
 5. Write the **rationale for Kim**: the ranking, the biggest disagreements, what would change the top 3, and questions for Product Management. Not a decision: that stays with Product Management.
 
 ### 👥 Part 2 - Two People Fewer
 
-1. Add `capacity-news.md` and let Kiro draft **three scenarios**:
-   > 💬 *"Draft three scenarios for our next PI with two people fewer and the new dependency from Team Concourse. For each one: what we do, what moves to a later PI, and who is affected. Don't calculate the load; we'll do that in Excel."*
+1. Add `capacity-news.md` and let Kiro draft **three scenarios** for your next PI, with two people fewer and the new dependency from Team Concourse. Each scenario says what you do, what moves to a later PI, and who is affected. Kiro **doesn't calculate the load**: Excel does.
 2. In **Excel**, calculate your capacity: average velocity × five sprints, adjusted to four of six people, minus 15 % for bugs. Then the load of each scenario as a share of the capacity.
-3. Step back once more:
-   > 💬 *"Which assumptions are hidden in our capacity calculation, and how could they be wrong?"*
+3. Step back once more: let Kiro name the **assumptions hidden** in your capacity calculation, and how they could be wrong.
 4. **Decide as a group**, and write down who must be told: other teams, Kim, and anyone who relies on an earlier forecast.
 
 > 💡 **Tip:** An average of three opinions can hide that nobody agrees. Show the spread next to every average.
+
+> 💡 **Tip:** The solution shows sample prompts. Open it only after you have tried your own.
 
 > 📚 **Kiro docs:** [Chat](https://kiro.dev/docs/ide/chat/) covers adding files as context.
 
@@ -63,6 +65,7 @@ Then **Alex** writes: two of your six team members won't be available in the nex
 - Which feature divides the business owners most, and why?
 - Which single assumption changes the top 3?
 - Which scenario did you choose, and what does it mean for earlier promises?
+- What did the step back in your prompt find that a direct question would have missed?
 
 ## 🔗 Where This Leads
 

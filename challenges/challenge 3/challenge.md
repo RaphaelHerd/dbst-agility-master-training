@@ -28,17 +28,20 @@ A colleague stopped it just in time. The source was an AI answer. It sounded con
 
 ## ✅ Your Tasks
 
+You write every prompt yourselves. The steps say what each prompt must achieve, not how to phrase it.
+
 ### 🔍 Part 1 - Check Every Claim
 
 1. Add `art-playbook.md` and `answer-b.md` to the chat (type `#` and choose **File**). Start with answer B: it almost went out.
-2. **Ground Kiro in the source** with "according to":
-   > 💬 *"According to art-playbook.md only, check every claim in answer-b.md. For each claim, quote the passage that confirms or contradicts it. If the playbook says nothing about a claim, write 'not in the source'."*
-3. **Ask how sure Kiro is:**
-   > 💬 *"How sure are you about each verdict, from 1 (guess) to 5 (certain), and why?"*
+2. **Ground Kiro in the source** with "according to". Your prompt should:
+   - limit Kiro to the playbook as the **only** source;
+   - check **every claim** in answer B, one by one;
+   - ask for a **quote** from the playbook that confirms or contradicts each claim;
+   - say what Kiro should write when the playbook says **nothing** about a claim.
+3. **Ask how sure Kiro is:** let it rate each verdict on a scale, for example from 1 (guess) to 5 (certain), with a reason.
 
    The rating is a hint, not proof. **Look up every quote in the playbook yourself.**
-4. Check answers A and C the same way, and ask for a **deep analysis**:
-   > 💬 *"This is a complex task, so take your time. Read every word of the playbook first. Then check answer C claim by claim, with special attention to numbers and dates."*
+4. Check answers A and C the same way, and ask for a **deep analysis**: tell Kiro that the task is complex, that it should read every word of the playbook first, and that it should pay special attention to numbers and dates.
 5. Write your **validation log**: one row per claim, with a verdict and the source.
 
    | Verdict | Meaning |
@@ -50,12 +53,17 @@ A colleague stopped it just in time. The source was an AI answer. It sounded con
 ### 🧾 Part 2 - Find the Invented Steps
 
 1. Open a **new chat** and add `dod-agreed.md`, `dod-polished.md` and `art-playbook.md`. Section 3 of the playbook holds the ART-wide minimum.
-2. Let Kiro **compare all three line by line**:
-   > 💬 *"Compare dod-polished.md line by line with dod-agreed.md and section 3 of art-playbook.md. For each line of the polished version, name its source and quote it. Mark every line that has no source. Then list everything from the two sources that is missing or weaker in the polished version. Don't skip a single line."*
+2. Let Kiro **compare all three line by line**. Your prompt should ask for:
+   - the **source** of every line in the polished version, with a quote;
+   - a mark on every line that has **no source**;
+   - everything from the two sources that is **missing or weaker** in the polished version;
+   - a check of **every single line**, none skipped.
 3. **Check Kiro's table yourself.** Is every quote really in the file?
 4. Write the **corrected Definition of Done**: everything from your team DoD and the ART minimum, and nothing else. Add the AI label and a log line.
 
 > 💡 **Tip:** AI doesn't only add things. It also drops and softens them. Compare in both directions.
+
+> 💡 **Tip:** The solution shows sample prompts. Open it only after you have tried your own.
 
 > 📚 **Kiro docs:** [Chat](https://kiro.dev/docs/ide/chat/) shows how to add single files as context.
 
@@ -71,6 +79,7 @@ A colleague stopped it just in time. The source was an AI answer. It sounded con
 
 - Which claim sounded most convincing, and why?
 - Did Kiro's "how sure" ratings match what you found in the source?
+- Which part of your grounding prompt made the biggest difference?
 - What did the AI invent in your Definition of Done, and what did it drop or soften?
 
 ## 🔗 Where This Leads

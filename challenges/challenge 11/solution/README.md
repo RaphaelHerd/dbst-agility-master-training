@@ -23,6 +23,19 @@
 | **WSJF sheet** | Excel calculates averages, medians, spreads and WSJF; the disagreements are visible next to the ranking |
 | **Note for Kim** | It names the stable part of the ranking, the open place, the assumptions that change it, and questions; the decision stays with Product Management |
 | **Scenarios** | Three options with load and share of capacity from Excel, a decision by the group, the hidden assumptions and who must be told |
+| **Your prompts** | The formula prompt asks for averages, medians and spreads and forbids results; the decision check names principles before it looks at the ranking |
+
+## 💬 Sample Prompts
+
+Prompts like these worked well. Yours don't need the same words; compare what they ask for.
+
+| Step | Sample prompt | Why it works |
+|---|---|---|
+| **Formulas** | *"For each feature and each WSJF component, we need the average, the median and the spread between the highest and the lowest score. Then WSJF from the averages and from the medians. Write the Excel formulas and explain them. Don't calculate anything yourself."* | Two methods side by side, and the spread keeps the disagreement visible |
+| **Step-back decision check** | *"Step back first: which principles should decide the order of features on a release train? Then look at our ranking: which single assumption would change the top 3? Check the notes in features.csv, too."* | Principles first, so the legal deadline in the notes gets noticed |
+| **Bias** | *"Compare the three business owners. Does anyone score their own area consistently higher? What does that mean for an average?"* | Asks about the pattern, not about a person's motives |
+| **Scenarios** | *"Draft three scenarios for our next PI with two people fewer and the new dependency from Team Concourse. For each one: what we do, what moves to a later PI, and who is affected. Don't calculate the load; we'll do that in Excel."* | A fixed structure for each option, and the math stays in Excel |
+| **Hidden assumptions** | *"Which assumptions are hidden in our capacity calculation, and how could they be wrong?"* | A second step back, this time at your own numbers |
 
 ## 📊 Part 1: The Decision Check
 

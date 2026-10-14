@@ -24,32 +24,32 @@ You know the answers. Kiro can write them faster, but only **if you ask precisel
 
 ## ✅ Your Tasks
 
+You write every prompt yourselves. The steps say what each prompt must achieve, not how to phrase it.
+
 ### ✉️ Part 1 - Three Quick Replies
 
 1. Add the `files` folder to the chat (type `#` and choose **Folder**). Your steering file from C01 is active, so Kiro already knows your team.
    > 💡 No steering file yet? Use the sample in `challenge 1/solution/team-context.md`.
-2. **Kim's mail.** First, try a lazy prompt and look at what comes back:
-   > 💬 *"Answer Kim's mail."*
+2. **Kim's mail.** First, try a **lazy prompt**: just tell Kiro to answer Kim's mail, nothing more. Look at what comes back.
 
-   Then apply the principles: be concise and clear, give context and specify the output.
-   > 💬 *"Answer Kim's mail from inbox.md in one sentence of at most 40 words: did we reach our Sprint 14 goal, and what is our biggest blocker? Use only sprint-notes.md and name the item ID."*
-3. **Alex's mail.** Define the output exactly:
-   > 💬 *"Answer Alex's mail with three bullets of at most 20 words each: only what we didn't finish in Sprint 14, with item IDs. No introduction."*
-4. **Member B's mail.** Use role prompting:
-   > 💬 *"You are an experienced Agility Master who explains things to developers without lecturing. Reply to Member B's mail in at most 80 words: friendly, honest and with one concrete example from our sprint notes."*
+   Then write a **precise prompt** with the principles. It should:
+   - ask for **one sentence of at most 40 words**;
+   - answer exactly Kim's two questions: goal reached? Biggest blocker?
+   - use **only your sprint notes** as the source;
+   - name the **item ID** of the blocker.
+3. **Alex's mail.** Write a prompt that defines the output exactly: **three bullets of at most 20 words each**, only what you didn't finish in Sprint 14, with item IDs, and no introduction.
+4. **Member B's mail.** Use **role prompting**: give Kiro a role that fits this reader. The reply has at most 80 words, is friendly and honest, and contains one concrete example from your sprint notes. No lecture.
 5. **Check every reply against the files.** Mark everything Kiro states that is not in the sources.
 
 ### 🛡️ Part 2 - Two Sensitive Replies
 
-1. **Robin's mail.** Answer both questions in at most 80 words, formal and precise. Write only what is true today, and delete any promise you can't keep.
-2. **Sascha's mail.** Let Kiro draft your team's biggest risk in two tones:
-   > 💬 *"Draft a reply to Sascha's mail in at most 80 words: the risk, what it affects, and what we need from whom. Write two versions: one calm and reassuring, one direct and urgent. Use only facts and numbers from our files."*
+1. **Robin's mail.** Write a prompt for a formal, precise reply of at most 80 words that answers both questions. Write only what is true today, and delete any promise you can't keep.
+2. **Sascha's mail.** Write **one prompt** that drafts your team's biggest risk in **two tones**: one calm and reassuring, one direct and urgent. Each version has at most 80 words and names the risk, what it affects and what you need from whom, using only facts and numbers from your files.
 3. **Choose one version** and explain in one sentence why it fits the steering committee. Change it if you need to.
-4. Optional: let Kiro play the reader.
-   > 💬 *"Act as a member of the steering committee. Read both versions. Which one helps you decide, and what is missing?"*
+4. Optional: let Kiro **play the reader**. Write a prompt in which Kiro acts as a member of the steering committee and says which version helps them decide, and what is missing.
 5. Add the **AI label** and a **log line** to your replies.
 
-> 💡 **Tip:** If an answer misses the mark, don't argue with Kiro. Sharpen the prompt and run it again. That's principle 6: reflect and adapt.
+> 💡 **Tip:** If an answer misses the mark, don't argue with Kiro. Sharpen your prompt and run it again. That's principle 6: reflect and adapt. The solution shows sample prompts; open it only after you have tried your own.
 
 > 📚 **Kiro docs:** [Chat](https://kiro.dev/docs/ide/chat/) covers adding files and folders as context. [Steering](https://kiro.dev/docs/steering/) explains why Kiro already knows your team.
 
@@ -63,6 +63,7 @@ You know the answers. Kiro can write them faster, but only **if you ask precisel
 ## 🗣️ Debrief
 
 - What did the lazy prompt produce, and what changed with the precise one?
+- Which of your prompts needed a second try, and what did you change?
 - Which tone did you choose for Sascha, and why?
 - Did Kiro add anything to Robin's reply that you had to delete?
 

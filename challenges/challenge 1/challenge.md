@@ -24,28 +24,29 @@ Everything about your team, **Team Signal**, is in the `files` folder.
 
 ## ✅ Your Tasks
 
+You write every prompt yourselves. The steps say what each prompt must achieve, not how to phrase it.
+
 ### 👋 Part 1 - Get to Know Your Team
 
 1. Open the **Kiro chat**.
-2. **Build the context first:** add the `files` folder to the chat (type `#` and choose **Folder**), then ask for a summary.
-   > 💬 *"Read the files in this folder and summarize our team in five bullet points: purpose, people, events, current focus and the biggest open issue."*
-3. Ask **three follow-up questions** you would want answered before your first stand-up, for example:
-   > 💬 *"What should I raise at today's stand-up?"* · *"Which risks do the notes mention?"* · *"What is unclear or missing in these notes?"*
+2. **Build the context first:** add the `files` folder to the chat (type `#` and choose **Folder**). Then write a prompt that gets you a **summary of your team in five bullet points**: purpose, people, events, current focus and the biggest open issue.
+3. Write **three follow-up questions** of your own: what would you want to know before your first stand-up?
 4. **Check the answers against the files.** Mark everything Kiro states that is not in the sources.
-5. **Prepare the test:** open a **new chat**, add no files, and ask:
-   > 💬 *"Write a two-sentence welcome message for a new member of our team."*
-
-   Keep the answer. You will need it in Part 2.
+5. **Prepare the test:** open a **new chat** and add no files. Ask a short question that only someone who knows your team can answer well, for example for a welcome message to a new team member. **Write your question down word for word,** and keep the answer. You will need both in Part 2.
 
 ### 🗂️ Part 2 - Teach Kiro Your Team
 
-1. In your first chat, let Kiro **draft** a steering file from your team files:
-   > 💬 *"Based on these files, draft a steering file for our team with at most 20 lines: who we are, what we work on, our events, how you should write for us (clear, friendly, no jargon) and one rule: if anything is unclear, ask me before you answer."*
+1. Back in your first chat, write a prompt that lets Kiro **draft a steering file** from your team files. The draft must:
+   - have **at most 20 lines**;
+   - say who you are, what you work on, which events you have and how Kiro should write for you;
+   - contain one rule: **if anything is unclear, Kiro asks before it answers.**
 2. **Review the draft before you use it.** Remove anything that is wrong or doesn't belong there, such as personal details.
 3. **Save it as a steering file:** in the Kiro panel, open **Steering**, click **+**, choose the workspace scope, name the file `team-context` and paste your reviewed text. Kiro stores it in `.kiro/steering/` and reads it automatically from now on.
    > 💡 You can also ask Kiro to create the file for you. In that case, <span style="color:#EC0016;font-weight:700">read the change before you accept it.</span>
-4. **Run the test again:** open a new chat and ask the welcome-message question from Part 1, word for word.
+4. **Run the test again:** open a new chat and ask your test question from Part 1, word for word.
 5. **Compare** the two answers. What changed, and why?
+
+> 💡 **Tip:** A good prompt says what Kiro should read, what you want back, and in which form. If the answer misses the mark, improve the prompt and run it again. The solution shows sample prompts; open it only after you have tried your own.
 
 > 💡 **Tip:** Describe your team as it **is**, not as you wish it were. An inaccurate steering file makes Kiro *confidently wrong*.
 
@@ -62,7 +63,8 @@ Everything about your team, **Team Signal**, is in the `files` folder.
 ## 🗣️ Debrief
 
 - What did Kiro get right on the first try, and what did it add that wasn't in the files?
-- How did the steering file change the answer?
+- Which of your prompts needed a second try, and what did you change?
+- How did the steering file change the answer to your test question?
 - What would you put into a steering file for your real team?
 
 ## 🔗 Where This Leads

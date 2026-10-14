@@ -25,6 +25,20 @@
 | **Learning paths** | Each gap has steps, help and a measure; goals are options that people choose, not assignments |
 | **Feedback** | Every coded phrase, claim without evidence and sign of recency bias is named; the rewrite describes behavior and keeps placeholders for evidence |
 | **Reply** | It says no, gives the reasons (purpose, high-risk AI, agreement, trust) and offers the team-level results |
+| **Your prompts** | Every prompt on skills stays at team level; the skeleton waits for your OK; the rewrite prompt forbids invented examples |
+
+## 💬 Sample Prompts
+
+Prompts like these worked well. Yours don't need the same words; compare what they ask for.
+
+| Step | Sample prompt | Why it works |
+|---|---|---|
+| **Plan first** | *"We want a team-level gap map for the next PI. First make a plan: which steps, and which Excel formulas? Stay at team level: no statements about individual members. Don't calculate anything yet."* | Sets the team-level rule before any data is touched |
+| **Skeleton-of-thought** | *"First give me only the skeleton of a learning-path page for the skills with a gap: one section per skill, with steps, who can help, and how we'll know it worked. Wait for my OK before you fill it in."* | You approve the structure before Kiro writes the details |
+| **Development goals** | *"For each skill with a gap, write two development goals that any team member can choose in their own development talk, phrased as 'By the end of the next PI, I can …'. Don't assign goals to people."* | Options to choose, not assignments |
+| **Constructive critic** | *"Act as an expert in fair feedback. Check this draft for coded language, claims without evidence and recency bias. Quote each problem, explain why it's a problem and suggest better wording. Judge the text, not the person."* | Names the problem types and keeps the critique on the words |
+| **Rewrite** | *"Rewrite the draft: describe behavior, not personality. Wherever evidence is missing, leave a placeholder [example]. Don't invent examples."* | Placeholders instead of invented evidence |
+| **Ranking request** | *"Help me answer this request from the line manager. Draft a polite no that explains why, based on legal-guardrails.md, and offers what we can share: the team-level gap map and the learning paths."* | A no with reasons and an alternative |
 
 ## 🗺️ Part 1: The Gaps
 

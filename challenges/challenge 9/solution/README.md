@@ -23,6 +23,22 @@
 | **JQL** | Each query returns exactly the expected items in the export, and you can explain every condition |
 | **Weekly report** | It stays under 150 words, lists the facts, and says what the numbers don't mean |
 | **Automation** | It has a delay, a once-only brake and an escalation ladder, plus a change request, a test plan and a warning; the approval stays with Kim and the Jira administrator |
+| **Your prompts** | The JQL prompt uses the good and the bad examples and invites questions; each step of the chain builds on the one before |
+
+## 💬 Sample Prompts
+
+Prompts like these worked well. Yours don't need the same words; compare what they ask for.
+
+| Step | Sample prompt | Why it works |
+|---|---|---|
+| **Few-shot and contrastive** | *"Here are good and bad JQL examples from our wiki. Learn from both. Write one JQL query for each of Kim's five questions. Our projects are SIG, SWI, CON and DEP. If a question is ambiguous, ask me before you answer."* | Good examples show the style; bad ones show the traps; the last sentence invites questions |
+| **Explain** | *"Explain each query in one sentence for someone who doesn't know JQL. Which items would it include that Kim might not expect?"* | Turns code into a sentence you can check, and points at the surprises |
+| **Near misses** | *"Which rows in jira-export.csv almost match a query but must not be in the result?"* | Looks for the edge cases, where queries fail quietly |
+| **Weekly report** | *"Turn the five results into a weekly report for the train, at most 150 words. End with a short section: what these numbers mean, and what they don't."* | A word limit plus a section that stops the numbers being used to compare teams |
+| **Chain 1: rule** | *"Design a Jira automation rule for Alex's request: trigger, condition and action. Think about what goes wrong if it fires every time a story is blocked, and add brakes."* | Asks for the risks before the rule goes anywhere |
+| **Chain 2: change request** | *"Turn this rule into a change request that follows change-process.md."* | Builds on the rule and uses the train's own process |
+| **Chain 3: test plan** | *"Write a test plan for the sandbox project: three test cases, each with the expected result."* | Testable before anyone switches it on |
+| **Chain 4: warning** | *"Add a warning on how this rule and its numbers must never be used."* | Writes the limits down while they are still obvious |
 
 ## 🔎 Part 1: The Expected Results
 

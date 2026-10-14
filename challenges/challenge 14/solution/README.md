@@ -15,6 +15,16 @@
 |---|---|
 | **Retro** | It names what didn't work as honestly as what did, and ends with one action per person |
 | **Transfer plan** | Three concrete things with a place to use them, the company rules checked first, and a first step with a date in your calendar |
+| **Your prompts** | The retro prompt sets the length and the question types; the transfer prompt asks what to adapt, not only what to take |
+
+## 💬 Sample Prompts
+
+Prompts like these worked well. Yours don't need the same words; compare what they ask for.
+
+| Step | Sample prompt | Why it works |
+|---|---|---|
+| **Short retro** | *"Shorten our retro script for a short retro about the last two days: a check-in, two powerful questions of different types, and one action for each person."* | Reuses your own script and keeps only what fits the time |
+| **Transfer** | *"Look at everything we built this week. Which three prompts, steering rules or techniques would help most in a real Agility Master's week? For each one: what it does, where to use it, and what to adapt."* | Grounded in your own results, and it asks what has to change for a real team |
 
 ## 🧳 Candidates Worth Taking Home
 

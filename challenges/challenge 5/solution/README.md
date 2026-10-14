@@ -28,6 +28,19 @@
 | **Note for Rail Ops** | It has at most 100 words in plain language, with no ticket IDs, system names, people's names or jargon, and a clear ask, even if the ask is "nothing at the moment" |
 | **Review checklist** | It has at most 10 pass-or-fail checks derived from your agreement, saved with `inclusion: manual` |
 | **All three drafts** | Each one passed your review gate and carries the AI label and a log line |
+| **Your prompts** | One prompt per reader, each with a role, a tone, a skeleton and what to leave out; the decision paper starts with the skeleton only |
+
+## 💬 Sample Prompts
+
+Prompts like these worked well. Yours don't need the same words; compare what they ask for.
+
+| Step | Sample prompt | Why it works |
+|---|---|---|
+| **Facts first** | *"Read every line of sprint-notes.md and jira-export.csv. Summarize Sprint 14 as a fact list: goal, items with status, numbers and blockers. Mark every place where the two files disagree."* | One checked fact list feeds all three drafts, and the mismatch in Jira surfaces before anyone writes |
+| **Team update** | *"You are the Agility Master of Team Signal, writing to your own team. Turn our checked fact list into a status update for the team channel: done, open, next. Friendly and direct, at most 120 words, with item IDs."* | Role, tone, skeleton and length in one prompt |
+| **Decision paper** | *"You write for a steering committee that has five minutes for this topic. First, give me only the skeleton of a one-page decision paper based on decision-needed.md. Wait for my OK before you fill it in."* | Skeleton-of-thought: you approve the structure before Kiro writes a word |
+| **Rail Ops note** | *"You write for Rail Ops shift leads in plain language. Write a note of at most 100 words: what changes for you, what we need from you. No ticket IDs, no internal system names, no people's names, no jargon."* | The exclusions are spelled out, so Kiro can't fall back on team language |
+| **Review checklist** | *"Turn our AI working agreement into a review checklist for drafts that leave the team: at most 10 checks, each one answerable with pass or fail."* | Pass or fail makes every check usable as a gate |
 
 ## 🔍 Part 1: The Trap in Your Jira Export
 

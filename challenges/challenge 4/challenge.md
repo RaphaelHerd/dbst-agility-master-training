@@ -27,22 +27,25 @@ The thread has already started, and the positions differ: **Alex**, your PO, wan
 
 ## ✅ Your Tasks
 
+You write every prompt yourselves. The steps say what each prompt must achieve, not how to phrase it.
+
 ### ✂️ Part 1 - Clean Before You Share
 
 The job: Kiro will help you find the top risks for PI Planning in both exports. **Which data does that job really need?**
 
 1. Open `jira-export.csv` in **Excel** (**Data → From Text/CSV** opens it correctly with any language setting). Delete every column the job doesn't need, and save the file as `C04-jira-export-clean.csv`. What you delete here never reaches Kiro.
-2. The free text is harder. Add your cleaned CSV and `retro-export.md` to the chat:
-   > 💬 *"Pseudonymize these two files. Replace every person with a pseudonym (Member A, B, C …) and add the team. Remove health information, private details and judgments about people, but keep the facts the risk analysis needs. Then list every change you made."*
+2. The free text is harder. Add your cleaned CSV and `retro-export.md` to the chat and write a prompt that **pseudonymizes** both files. It should:
+   - replace every person with a pseudonym (Member A, B, C …) plus the team;
+   - remove health information, private details and judgments about people;
+   - keep the facts the risk analysis needs;
+   - end with a **list of every change**, so you can check it.
 3. **Find what Kiro missed.** Read the result line by line and look for: initials · @mentions · nicknames · last names on their own · health hints · judgments about people · anything that shows who wrote what.
 4. Fix what Kiro missed, and save both files.
 
 ### 🤝 Part 2 - Draft the Agreement
 
-1. In a new chat, add `email-thread.md` and `ai-guideline.md`. Collect the viewpoints with **different perspectives**:
-   > 💬 *"Read the thread. For the PO, the dev lead and the works council, describe what each of them wants, what each of them fears and where they agree. Then name the two biggest conflicts."*
-2. **Ask before answering:** let Kiro find out what only you can decide.
-   > 💬 *"You are an experienced Agility Master. Draft a one-page AI working agreement for our team. Before you start, ask me up to five questions about decisions only we can make. Wait for my answers."*
+1. In a new chat, add `email-thread.md` and `ai-guideline.md`. Collect the viewpoints with **different perspectives**: write a prompt that describes, for the PO, the dev lead and the works council, what each of them **wants**, what each of them **fears** and **where they agree**, and then names the **two biggest conflicts**.
+2. **Ask before answering:** write a prompt that asks Kiro for a one-page AI working agreement, but makes it **ask you first**: up to five questions about decisions only your group can make, and no draft until you have answered.
 3. **Answer as a group.** These are your decisions, not Kiro's.
 4. Let Kiro write the draft. It must cover:
 
@@ -63,6 +66,8 @@ The job: Kiro will help you find the top risks for PI Planning in both exports. 
 
 > 💡 **Tip:** Kiro is good at finding common ground. Deciding which side wins a conflict is your job.
 
+> 💡 **Tip:** The solution shows sample prompts. Open it only after you have tried your own.
+
 > 📚 **Kiro docs:** [Steering](https://kiro.dev/docs/steering/) explains how steering files work. [Chat](https://kiro.dev/docs/ide/chat/) covers adding files as context.
 
 ## 📦 Deliverables
@@ -79,6 +84,7 @@ The job: Kiro will help you find the top risks for PI Planning in both exports. 
 - What did Kiro miss in the exports? What would that have meant at work?
 - Which conflict was hardest to resolve, and would all three sides accept your decision?
 - What does your agreement say about logging? Would your dev lead sign it?
+- Which questions did Kiro ask before drafting, and which of them did you not see coming?
 
 ## 🔗 Where This Leads
 

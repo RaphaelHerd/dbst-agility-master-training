@@ -24,7 +24,21 @@
 | **Team summary** | It has five bullets, and you can trace every statement back to `one-pager.md` or `sprint-notes.md` |
 | **Follow-up answers** | They are concrete and based on the files, with item IDs such as SIG-147 where they help |
 | **Steering file** | It is short (at most 20 lines), accurate and free of personal details, and it contains the rule "ask before you answer" |
+| **Your prompts** | Each one says what Kiro should read, what you want back and in which form, and your test question is word for word the same before and after |
 | **Label and log** | Your result shows the AI label and a log line with prompt, sources, version and reviewer |
+
+## 💬 Sample Prompts
+
+Prompts like these worked well. Yours don't need the same words; compare what they ask for.
+
+| Step | Sample prompt | Why it works |
+|---|---|---|
+| **Team summary** | *"Read the files in this folder and summarize our team in five bullet points: purpose, people, events, current focus and the biggest open issue."* | It names the source, the form (five bullets) and the content of each bullet |
+| **Follow-up questions** | *"What should I raise at today's stand-up?"* · *"Which risks do the notes mention?"* · *"What is unclear or missing in these notes?"* | All three can be answered from the files. The last one invites Kiro to show gaps instead of filling them |
+| **Test question** | *"Write a two-sentence welcome message for a new member of our team."* | Only someone who knows the team can answer it well, and two sentences make the difference easy to see |
+| **Steering file draft** | *"Based on these files, draft a steering file for our team with at most 20 lines: who we are, what we work on, our events, how you should write for us (clear, friendly, no jargon) and one rule: if anything is unclear, ask me before you answer."* | It limits the length, lists the content and adds the rule that makes Kiro ask instead of guess |
+
+> 💡 **The pattern behind all four:** what Kiro should read, what you want back, and in which form. You'll meet it again as the 7 principles of prompt design.
 
 ## 🔍 Part 1: Did Kiro Invent Anything?
 
@@ -37,7 +51,7 @@ Check your summary for these typical mistakes. If you find one, your check did i
 
 ## 🧪 Part 2: Before and After
 
-**Test question:** *"Write a two-sentence welcome message for a new member of our team."*
+**Sample test question:** *"Write a two-sentence welcome message for a new member of our team."*
 
 | | Example answer |
 |---|---|
@@ -45,7 +59,7 @@ Check your summary for these typical mistakes. If you find one, your check did i
 | ✅ **With** team steering file | *"Welcome to Team Signal! We deliver the real-time train data behind SmartTransfer, and our Daily at 09:15 is the best place to meet everyone."* |
 | ✅ **Also a good outcome** | Kiro first asks: *"What is the new team member's name and role?"* That is your rule "ask before you answer" at work. |
 
-Your wording will differ. What matters is the **difference** between your two answers.
+Your test question and your wording will differ. What matters is the **difference** between your two answers.
 
 ## 🗣️ What Changed? Two Good Explanations
 
